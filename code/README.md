@@ -2,6 +2,36 @@
 
 The purpose of this code is to study the impact of future fossil fuel prices on the weighted average cost of capital (WACC) in the process of energy transition. By predicting fossil fuel prices in different scenarios and combining WACC calculation and analysis, the code provides a comprehensive approach to explore the relationship between market sentiment, historical data, and future capital costs in the energy economy. Specific tasks include: processing WACC and historical fossil fuel price , predicting future fossil fuel prices using LSTM and GRP model, building a  Stacking Regressor analysis to evaluate the impact.
 
+## Files Included
+1.[Average_Coal_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Average_Coal_Price.xlsx)
+
+Functionality: Cotains the historical coal price, which is used to predict future coal price.
+
+2.[Average_Gas_price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Average_Gas_price.xlsx)
+
+Functionality: Cotains the historical natural gas price, which is used to predict future natural gas price.
+
+3.[Average_oil_price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Average_oil_price.xlsx)
+
+Functionality: Cotains the historical oil price, which is used to predict future oil price.
+
+4. [Transition_WACC_And_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Transition_WACC_And_Price.xlsx)
+
+Functionality: Cotains Both anual WACC data in transition countries and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in transition countries, caculating the R^2,RMSE,and MAE.
+
+5. [Euope_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Euope_WACC_And_Predicted_Price.xlsx)
+
+Functionality: Cotains Both anual WACC data in Europe and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in Europe, caculating the R^2,RMSE,and MAE.
+
+6. [China+_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/China%2B_WACC_And_Predicted_Price.xlsx)
+
+Functionality: Cotains Both anual WACC data in China+ regions and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in China+ regions, caculating the R^2,RMSE,and MAE.
+
+7. [Middle_EAST_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Middle_EAST_WACC_And_Predicted_Price.xlsx)
+
+Functionality: Cotains Both anual WACC data in Middle East and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in Middle East, caculating the R^2,RMSE,and MAE.
+
+
 ## Prerequisites
 
 **Python Version:**  
