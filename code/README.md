@@ -53,3 +53,11 @@ You can install the required libraries with the following `pip` command:
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn tensorflow scipy keras openpyxl requests
+
+ ``` 
+
+## Usage Instructions
+
+1. Data Processing
+
+Generate the WACC data and historical fossil fuel data for furteher usage. Specifically, we [reorganize the predicted WACC data](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/WACC_Data_processing.ipynb) from Calcaterra et al. (2024) to find the reginal differences, and [calulate the average anual fossil fuel prices](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Price_Data_Processing.ipynb).
