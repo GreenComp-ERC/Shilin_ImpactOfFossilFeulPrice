@@ -17,5 +17,5 @@ This study collect price sourses from dataset of World Bank, getting the histori
 Then, this study combine the prediction reslt with Calcaterra et al. (2024)'s [WACC dataset](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/CalcaterraEtAl_2024_NatEner_data_ED_fig22.csv). Subsequently， after data processing, we get the  WACC values with its coresponding predicted fossil fuel data in [Europe](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Euope_WACC_And_Predicted_Price.xlsx), [Chinas+ regions](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/China%2B_WACC_And_Predicted_Price.xlsx), [Middel East](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Middle_EAST_WACC_And_Predicted_Price.xlsx), and [all transition countries](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Transition_WACC_And_Price.xlsx).
 
 3. Result
-4. 
+
 Finally, we get [result](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Result.xlsx) which demosntrates the imapct of fossil fuel price on WACC of energy transition projects in specificaal regions.
