@@ -70,7 +70,23 @@ You can install the required libraries with the following `pip` command:
 ```bash
 pip install pandas numpy matplotlib scikit-learn tensorflow scipy keras openpyxl requests
 
- ``` 
+ ```
+
+## Expected Output
+
+According to the model,  from 2025 to 2100, fossil fuel prices (natural gas, oil, and coal) are expected to follow distinct trends. Natural gas prices will likely fluctuate between 6 and 18 dollars per unit, reflecting market uncertainty. Oil prices are predicted to decline steadily from 76 dollars per barrel in 2025 to 62 dollars by 2100, with periodic short-term fluctuations. Coal prices are projected to rise initially from 125 to 130 dollars per unit before stabilizing at a relatively high level.
+
+Europe shows a consistently high average R² value of 0.3297 in transition projects, indicating robust WACC responses to fossil fuel price fluctuations (\ref{Result_Europe}). Europe also has a higher proportion of non-zero R² projects, suggesting greater sensitivity to fossil fuel price variations. Additionally, lower RMSE and MAE values indicate smaller prediction errors, demonstrating higher stability and accuracy.
+
+The mean R² value for the China+ region is 0.2195 (\ref{Result_China+}), lower than Europe's 0.3297  but still above the global average. Notably, the R² value for natural gas in solar projects within the China+ region reaches 0.8839, indicating an exceptionally strong model fit and robust correlation. Additionally, the China+ region has smaller RMSE and MAE values, suggesting higher accuracy and stability in predictive models.
+
+Results from the Middle East region show a low model fit, with an average R² of 0.135 , lower than in other regions. Prediction errors (RMSE and MAE) are also higher, indicating that capital costs of energy transition projects in the Middle East are less influenced by fossil fuel price fluctuations.
+
+## Contributors
+1. Calcaterra et al. (2024): provide the dataset and evaluation modle of wacc.
+
+2. World Band: Provide the historical data for fossil fuel price.
+
  
 
 
