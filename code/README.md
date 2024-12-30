@@ -32,6 +32,22 @@ Functionality: Cotains Both anual WACC data in China+ regions and coresponding f
 Functionality: Cotains Both anual WACC data in Middle East and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in Middle East, caculating the R^2,RMSE,and MAE.
 
 
+## Usage Instructions
+
+1. Data Processing
+
+Generate the WACC data and historical fossil fuel data for furteher usage. Specifically, we [reorganize the predicted WACC data](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/WACC_Data_processing.ipynb) from Calcaterra et al. (2024) to find the reginal differences, and [calulate the average anual fossil fuel prices](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Price_Data_Processing.ipynb).
+
+2. Fossil Fuel Price Prediction
+
+Use LSTM and GRP model to predicte the [oil](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Oil_Price_Prediction.ipynb), [coal](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/coal_Prediction.ipynb), [natral gas](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Natural_Gas_Prediction.ipynb) price from 2035 to 2100 based on historical fossil fuel price.
+
+3. Evaluate The Impact
+
+ Through Stacking Regressor analysis, this study evaluates how fluctuations in fossil fuel prices affect the WACC of diverse energy transition projects. Specifically, this study utilize concentrates on regional differences, evaluating the impactr of fossil fuel in [Europe](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_fuel_Europe.ipynb),[China+ regions](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_Fuel_In_China%2B.ipynb), [Middle East](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_fuel_In_Middle_East.ipynb), and [all transition countries](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_of_Fossil_fuel_In_Transition_Countris.ipynb).
+
+ 
+
 ## Prerequisites
 
 **Python Version:**  
@@ -55,9 +71,6 @@ You can install the required libraries with the following `pip` command:
 pip install pandas numpy matplotlib scikit-learn tensorflow scipy keras openpyxl requests
 
  ``` 
+ 
 
-## Usage Instructions
 
-1. Data Processing
-
-Generate the WACC data and historical fossil fuel data for furteher usage. Specifically, we [reorganize the predicted WACC data](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/WACC_Data_processing.ipynb) from Calcaterra et al. (2024) to find the reginal differences, and [calulate the average anual fossil fuel prices](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Price_Data_Processing.ipynb).
