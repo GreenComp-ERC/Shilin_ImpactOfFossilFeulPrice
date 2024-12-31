@@ -21,3 +21,17 @@ We extend our gratitude to:
 ### [Project Poster](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/Doc/Poster%20.png)
 
 ### [Full Report](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/Doc/The%20impact%20of%20fossil%20fuels%20price%20on%20Weighted%20Average%20Cost%20of%20Capital%20(WACC)%20within%20energy%20transition%20projects%20in%20the%20future.pdf)
+
+## Navigation Instructions
+
+This repository is organized as follows:
+
+### [Code](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code)
+
+[-**Overview**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#overview)
+[-**Files Included**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#files-included)
+[-**Usage Instructions**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#usage-instructions)
+[-**Prerequisites**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#prerequisites)
+[-**Expected Output**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#expected-output)
+[-**System Configuration**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/System%20Configuration%20Report.ipynb)
+[-**Contributors**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#contributors)
