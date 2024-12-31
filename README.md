@@ -29,9 +29,15 @@ This repository is organized as follows:
 ### [Code](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code)
 
 [-**Overview**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#overview)
+
 [-**Files Included**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#files-included)
+
 [-**Usage Instructions**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#usage-instructions)
+
 [-**Prerequisites**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#prerequisites)
+
 [-**Expected Output**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#expected-output)
+
 [-**System Configuration**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/System%20Configuration%20Report.ipynb)
+
 [-**Contributors**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#contributors)
