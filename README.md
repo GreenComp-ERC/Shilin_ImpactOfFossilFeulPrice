@@ -1,9 +1,9 @@
 # The Impact of Oil Price Fluctuations on Weighted Average Cost of Capital (WACC) within Energy Transition in the future
 
 ## Authors
-- **Prof.Mingchun Huang ph.D**
-- **Prof.Luyao Zhang ph.D**
-- **Shilin Ou**
+- **Prof.Mingchun Huang ph.D** : Duke Kunshan University 
+- **Prof.Luyao Zhang ph.D** : Duke Kunshan University 
+- **Shilin Ou** : Duke Kunshan University 
 
 
 ## Disclaimer
