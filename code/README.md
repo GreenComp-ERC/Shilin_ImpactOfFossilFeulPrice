@@ -84,6 +84,8 @@ The mean R² value for the China+ region is 0.2195 (\ref{Result_China+}), lower 
 
 Results from the Middle East region show a low model fit, with an average R² of 0.135 , lower than in other regions. Prediction errors (RMSE and MAE) are also higher, indicating that capital costs of energy transition projects in the Middle East are less influenced by fossil fuel price fluctuations.
 
+## [System Configuration](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/System%20Configuration%20Report.ipynb)
+
 ## Contributors
 1. Calcaterra et al. (2024): provide the dataset and evaluation modle of wacc.
 
