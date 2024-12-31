@@ -24,7 +24,7 @@ Finally, we get [result](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilF
 
 | **Variable Name**                         | **Data Type** | **Description**                                  | **Source File**           | **Unit** | **Range**                  | **Remarks**                                      |
 |-------------------------------------------|---------------|--------------------------------------------------|---------------------------|----------|----------------------------|--------------------------------------------------|
-| Year_month                                | String        | Time period in Year-Month format                 | Average_Coal_Price.xlsx   | N/A      | 1960M01 to present         | Time period of coal price data                  |
+| Year_month                                | String        | Time period in Year-Month format                 | Average_Coal_Price.xlsx   | N/A      | 1960 to 2024        | Time period of coal price data                  |
 | Coal, Australian Coal                     | Float         | Price of Australian Coal                         | Average_Coal_Price.xlsx   | $/mt     | Varies by month and year   | Coal price in Australian market                 |
 | South African ** Average Coal Price       | Float         | Price of South African Coal                      | Average_Coal_Price.xlsx   | $/mt     | Varies by month and year   | Coal price in South African market              |
 | Year_Month                                | String        | Time period in Year-Month format                 | Average_Gas_price.xlsx    | N/A      | 1960M01 to present         | Time period of gas price data                   |
