@@ -41,3 +41,15 @@ This repository is organized as follows:
 [-**System Configuration**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/System%20Configuration%20Report.ipynb)
 
 [-**Contributors**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code#contributors)
+
+### [Data](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/data)
+
+[-**The Source And Purpose Of The Datase**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/data#the-source-and-purpose-of-the-datase)
+
+[-**Dataset And Preprocessing Step**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/data#dataset-and-preprocessing-step)
+
+[-**Data Dictionary**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/data#data-dictionary)
+
+### [Images](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/Image)
+
+### [Documents](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/Doc)
