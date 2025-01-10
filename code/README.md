@@ -35,6 +35,8 @@ Functionality: Cotains Both anual WACC data in Middle East and coresponding foss
 
 
 ## Usage Instructions
+1. [Test](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/TEST.ipynb)
+   Use the reral WACC and fossil fuel price in 2018 to test the accuarcy of the model. 
 
 1. Data Processing
 
