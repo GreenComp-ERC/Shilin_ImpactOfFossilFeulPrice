@@ -36,17 +36,18 @@ Functionality: Cotains Both anual WACC data in Middle East and coresponding foss
 
 ## Usage Instructions
 1. [Test](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/TEST.ipynb)
+   
    Use the reral WACC and fossil fuel price in 2018 to test the accuarcy of the model. 
 
-1. Data Processing
+2. Data Processing
 
 Generate the WACC data and historical fossil fuel data for furteher usage. Specifically, we [reorganize the predicted WACC data](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/WACC_Data_processing.ipynb) from Calcaterra et al. (2024) to find the reginal differences, and [calulate the average anual fossil fuel prices](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Price_Data_Processing.ipynb).
 
-2. Fossil Fuel Price Prediction
+3. Fossil Fuel Price Prediction
 
 Use LSTM and GRP model to predicte the [oil](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Oil_Price_Prediction.ipynb), [coal](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/coal_Prediction.ipynb), [natral gas](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Natural_Gas_Prediction.ipynb) price from 2035 to 2100 based on historical fossil fuel price.
 
-3. Evaluate The Impact
+4. Evaluate The Impact
 
  Through Stacking Regressor analysis, this study evaluates how fluctuations in fossil fuel prices affect the WACC of diverse energy transition projects. Specifically, this study utilize concentrates on regional differences, evaluating the impactr of fossil fuel in [Europe](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_fuel_Europe.ipynb),[China+ regions](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_Fuel_In_China%2B.ipynb), [Middle East](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_fuel_In_Middle_East.ipynb), and [all transition countries](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_of_Fossil_fuel_In_Transition_Countris.ipynb).
 
