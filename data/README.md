@@ -71,5 +71,5 @@ Finally, we get [result](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilF
 | Onshore                                   | Float         | WACC or predicted price for onshore projects     | China+_WACC_And_Predicted_Price.xlsx | N/A      | Varies by year and scenario | WACC or predicted price for onshore projects   |
 | Offshore                                  | Float         | WACC or predicted price for offshore projects    | China+_WACC_And_Predicted_Price.xlsx | N/A      | Varies by year and scenario | WACC or predicted price for offshore projects  |
 | Nuclear                                   | Float         | WACC or predicted price for nuclear projects     | China+_WACC_And_Predicted_Price.xlsx | N/A      | Varies by year and scenario | WACC or predicted price for nuclear projects    |
-| CCS                                       | Float         | WACC or predicted price for CCS projects         | China+_WACC_And_Predicted_P
+| CCS                                       | Float         | WACC or predicted price for CCS projects         | China+_WACC_And_Predicted_Price.xlsx | N/A      | Varies by year and scenario | WACC or predicted price for CSS projects    |
 
