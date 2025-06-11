@@ -11,7 +11,7 @@ The main goal of this analysis is to explore the impact of fossil fuel price flu
 
 1. [Test](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Predicted_vs_Real_Results_Improved.xlsx)
 
-Initially, this study use the real WACC and fossil fuel price in 2018 to test the accuracy of the modle
+Initially, this study use the real WACC and fossil fuel price in form 2021 to 2024 to test the accuracy of the modle. We compare the [prediction result](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Accuracy_Prediction-Model.xlsx), finding out that the LSTM-GRP modle works beeter. 
   
 2. Price Prediction
 
