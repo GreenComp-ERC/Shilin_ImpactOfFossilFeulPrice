@@ -9,13 +9,15 @@ The main goal of this analysis is to explore the impact of fossil fuel price flu
 
 ## Dataset And Preprocessing Step
 
-1. Test
-
-Initially, this study use the real WACC and fossil fuel price in form 2021 to 2024 to test the accuracy of the modle. We compare the [prediction result](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Accuracy_Prediction-Model.xlsx), finding out that the LSTM-GRP modle works beeter. 
+ 
   
-2. Price Prediction
+1. Price Prediction
 
 This study collect price sourses from dataset of World Bank, getting the historical price data for [oil](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Average_oil_price.xlsx),[coal](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Average_Coal_Price.xlsx), and [natural gas](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Average_Gas_price.xlsx). And use it for [price prediction](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/code).And get the predicted [oil](https://raw.githubusercontent.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/refs/heads/main/data/oil-predictions_with_confidence_intervals.csv),[coal](https://raw.githubusercontent.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/refs/heads/main/data/coal_price_predictions_with_confidence_intervals.csv),and [natrual gas](https://raw.githubusercontent.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/refs/heads/main/data/natural_gas_price_predictions_with_confidence_intervals.csv) data from 2025 to 2100 with its 95% confidence interval.
+
+2. Test
+
+Initially, this study use the real WACC and fossil fuel price in form 2021 to 2024 to test the accuracy of the modle. We compare the [prediction result](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Accuracy_Prediction-Model.xlsx), finding out that the LSTM-GRP modle works beeter.
 
 3. Impact Evaluation
 
