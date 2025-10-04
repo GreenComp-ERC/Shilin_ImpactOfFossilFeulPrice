@@ -49,7 +49,7 @@ Use LSTM and GRP model to predicte the [fossil fuel price](https://github.com/Gr
 
 5. Evaluate The Impact
 
- Through [alutoMl analysis](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Impact_FossilFuel.ipynb), this study evaluates how fluctuations in fossil fuel prices affect the WACC of diverse energy transition projects. 
+ Through [autoMl analysis](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Impact_FossilFuel.ipynb), this study evaluates how fluctuations in fossil fuel prices affect the WACC of diverse energy transition projects. 
 
  
 
