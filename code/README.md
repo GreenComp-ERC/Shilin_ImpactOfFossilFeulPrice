@@ -17,15 +17,15 @@ Functionality: Cotains the historical natural gas price, which is used to predic
 
 Functionality: Cotains the historical oil price, which is used to predict future oil price.
 
-4. [Euope_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Euope_WACC_And_Predicted_Price.xlsx)
+4. [Euope_WACC.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Euope_WACC.xlsx)
 
 Functionality: Cotains Both anual WACC data in Europe and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in Europe, caculating the R^2,RMSE,and MAE.
 
-5. [China+_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/China%2B_WACC_And_Predicted_Price.xlsx)
+5. [China_WACC.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/China_WACC.xlsx)
 
 Functionality: Cotains Both anual WACC data in China+ regions and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in China+ regions, caculating the R^2,RMSE,and MAE.
 
-6. [Middle_EAST_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Middle_EAST_WACC_And_Predicted_Price.xlsx)
+6. [Middle_EAST_WACC.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Middle_EAST_WACC.xlsx)
 
 Functionality: Cotains Both anual WACC data in Middle East and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in Middle East, caculating the R^2,RMSE,and MAE.
 
@@ -38,7 +38,7 @@ Generate the WACC data and historical fossil fuel data for furteher usage. Speci
 
 2. Fossil Fuel Price Prediction
 
-Use LSTM and GRP model to predicte the [oil](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Oil_Price_Prediction.ipynb), [coal](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/coal_Prediction.ipynb), [natral gas](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Natural_Gas_Prediction.ipynb) price from 2035 to 2100 based on historical fossil fuel price.
+Use LSTM and GRP model to predicte the [fossil fuel price]()  from 2026 to 2035 based on historical fossil fuel price.
 
 3. Evaluate The Impact
 
