@@ -17,19 +17,15 @@ Functionality: Cotains the historical natural gas price, which is used to predic
 
 Functionality: Cotains the historical oil price, which is used to predict future oil price.
 
-4. [Transition_WACC_And_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Transition_WACC_And_Price.xlsx)
-
-Functionality: Cotains Both anual WACC data in transition countries and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in transition countries, caculating the R^2,RMSE,and MAE.
-
-5. [Euope_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Euope_WACC_And_Predicted_Price.xlsx)
+4. [Euope_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Euope_WACC_And_Predicted_Price.xlsx)
 
 Functionality: Cotains Both anual WACC data in Europe and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in Europe, caculating the R^2,RMSE,and MAE.
 
-6. [China+_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/China%2B_WACC_And_Predicted_Price.xlsx)
+5. [China+_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/China%2B_WACC_And_Predicted_Price.xlsx)
 
 Functionality: Cotains Both anual WACC data in China+ regions and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in China+ regions, caculating the R^2,RMSE,and MAE.
 
-7. [Middle_EAST_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Middle_EAST_WACC_And_Predicted_Price.xlsx)
+6. [Middle_EAST_WACC_And_Predicted_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Middle_EAST_WACC_And_Predicted_Price.xlsx)
 
 Functionality: Cotains Both anual WACC data in Middle East and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in Middle East, caculating the R^2,RMSE,and MAE.
 
