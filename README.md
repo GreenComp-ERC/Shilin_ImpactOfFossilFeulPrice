@@ -1,5 +1,4 @@
-# The Impact of Oil Price Fluctuations on Weighted Average Cost of Capital (WACC) within Energy Transition in the future
-
+# Fossil Fuel Prices and Capital Cost: A Machine Learning Driven Study on Energy Transition
 
 
 
