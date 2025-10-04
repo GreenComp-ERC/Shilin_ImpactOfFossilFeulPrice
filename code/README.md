@@ -2,7 +2,7 @@
 
 ## Overview 
 
-The purpose of this code is to study the impact of future fossil fuel prices on the weighted average cost of capital (WACC) in the process of energy transition. By predicting fossil fuel prices in different scenarios and combining WACC calculation and analysis, the code provides a comprehensive approach to explore the relationship between market sentiment, historical data, and future capital costs in the energy economy. Specific tasks include: processing WACC and historical fossil fuel price , predicting future fossil fuel prices using LSTM and GRP model, building a  Stacking Regressor analysis to evaluate the impact.
+The purpose of this code is to study the impact of future fossil fuel prices on the weighted average cost of capital (WACC) in the process of energy transition. By predicting fossil fuel prices in different scenarios and combining WACC calculation and analysis, the code provides a comprehensive approach to explore the relationship between market sentiment, historical data, and future capital costs in the energy economy. Specific tasks include: processing WACC and historical fossil fuel price , predicting future fossil fuel prices using LSTM and GRP model, building a  autoML analysis to evaluate the impact.
 
 ## Files Included
 1.[Average_Coal_Price.xlsx](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/Average_Coal_Price.xlsx)
@@ -80,9 +80,9 @@ According to the model,  from 2025 to 2100, fossil fuel prices (natural gas, oil
 
 Europe shows a consistently high average R² value of 0.3297 in transition projects, indicating robust WACC responses to fossil fuel price fluctuations (\ref{Result_Europe}). Europe also has a higher proportion of non-zero R² projects, suggesting greater sensitivity to fossil fuel price variations. Additionally, lower RMSE and MAE values indicate smaller prediction errors, demonstrating higher stability and accuracy.
 
-The mean R² value for the China+ region is 0.2195 (\ref{Result_China+}), lower than Europe's 0.3297  but still above the global average. Notably, the R² value for natural gas in solar projects within the China+ region reaches 0.8839, indicating an exceptionally strong model fit and robust correlation. Additionally, the China+ region has smaller RMSE and MAE values, suggesting higher accuracy and stability in predictive models.
+The mean R² value for the China+ region is 0.65 (\ref{Result_China+}), lower than Europe's 0.67  but still above the global average. 
 
-Results from the Middle East region show a low model fit, with an average R² of 0.135 , lower than in other regions. Prediction errors (RMSE and MAE) are also higher, indicating that capital costs of energy transition projects in the Middle East are less influenced by fossil fuel price fluctuations.
+Results from the Middle East region show a low model fit, with an average R² of 0.54 , lower than in other regions. Prediction errors are also higher, indicating that capital costs of energy transition projects in the Middle East are less influenced by fossil fuel price fluctuations.
 
 ## [System Configuration](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/System%20Configuration%20Report.ipynb)
 
