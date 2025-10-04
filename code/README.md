@@ -29,6 +29,9 @@ Functionality: Cotains Both anual WACC data in China+ regions and coresponding f
 
 Functionality: Cotains Both anual WACC data in Middle East and coresponding fossil fuel price data. It will be used to evluate the impactr of fossil fuel on the WACC of energy transition projects in Middle East, caculating the R^2,RMSE,and MAE.
 
+7. [comprehensive_economic-data](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/data/comprehensive_economic_data.xlsx)
+
+  Functionality: Used to caculate the inflation rate.  
 
 ## Usage Instructions
 
@@ -36,13 +39,17 @@ Functionality: Cotains Both anual WACC data in Middle East and coresponding foss
 
 Generate the WACC data and historical fossil fuel data for furteher usage. Specifically, we [reorganize the predicted WACC data](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/WACC_Data_processing.ipynb) from Calcaterra et al. (2024) to find the reginal differences, and [calulate the average anual fossil fuel prices](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Price_Data_Processing.ipynb).
 
+
 2. Fossil Fuel Price Prediction
 
-Use LSTM and GRP model to predicte the [fossil fuel price]()  from 2026 to 2035 based on historical fossil fuel price.
+Use LSTM and GRP model to predicte the [fossil fuel price](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Price_Prediction.ipynb)  from 2026 to 2035 based on historical fossil fuel price.
 
-3. Evaluate The Impact
+3. [inflation rate](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Prediction_Inflation.ipynb)
+   
 
- Through Stacking Regressor analysis, this study evaluates how fluctuations in fossil fuel prices affect the WACC of diverse energy transition projects. Specifically, this study utilize concentrates on regional differences, evaluating the impactr of fossil fuel in [Europe](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_fuel_Europe.ipynb),[China+ regions](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_Fuel_In_China%2B.ipynb), [Middle East](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_Of_Fossil_fuel_In_Middle_East.ipynb), and [all transition countries](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/The_Impact_of_Fossil_fuel_In_Transition_Countris.ipynb).
+5. Evaluate The Impact
+
+ Through [alutoMl analysis](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/Impact_FossilFuel.ipynb), this study evaluates how fluctuations in fossil fuel prices affect the WACC of diverse energy transition projects. 
 
  
 
@@ -69,16 +76,6 @@ You can install the required libraries with the following `pip` command:
 pip install pandas numpy matplotlib scikit-learn tensorflow scipy keras openpyxl requests
 
  ```
-
-## Expected Output
-
-According to the model,  from 2025 to 2100, fossil fuel prices (natural gas, oil, and coal) are expected to follow distinct trends. Natural gas prices will likely fluctuate between 6 and 18 dollars per unit, reflecting market uncertainty. Oil prices are predicted to decline steadily from 76 dollars per barrel in 2025 to 62 dollars by 2100, with periodic short-term fluctuations. Coal prices are projected to rise initially from 125 to 130 dollars per unit before stabilizing at a relatively high level.
-
-Europe shows a consistently high average R² value of 0.3297 in transition projects, indicating robust WACC responses to fossil fuel price fluctuations (\ref{Result_Europe}). Europe also has a higher proportion of non-zero R² projects, suggesting greater sensitivity to fossil fuel price variations. Additionally, lower RMSE and MAE values indicate smaller prediction errors, demonstrating higher stability and accuracy.
-
-The mean R² value for the China+ region is 0.65 (\ref{Result_China+}), lower than Europe's 0.67  but still above the global average. 
-
-Results from the Middle East region show a low model fit, with an average R² of 0.54 , lower than in other regions. Prediction errors are also higher, indicating that capital costs of energy transition projects in the Middle East are less influenced by fossil fuel price fluctuations.
 
 ## [System Configuration](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/blob/main/code/System%20Configuration%20Report.ipynb)
 
