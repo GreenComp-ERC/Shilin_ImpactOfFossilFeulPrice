@@ -38,6 +38,3 @@ This repository is organized as follows:
 
 [-**Data Dictionary**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/data#data-dictionary)
 
-### [Images](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/Image)
-
-### [Documents](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/Doc)
