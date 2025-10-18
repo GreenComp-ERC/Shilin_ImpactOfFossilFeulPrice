@@ -5,7 +5,6 @@
 ## Acknowledgments
 We extend our gratitude to:
 
-- **AIGC tools** (e.g., ChatGPT) for enhancing sentiment analysis and report generation.
 - The **open-source software community**, including dataset from World Bank and libraries like TensorFlow, Scikit-learn, and Pandas, for providing essential tools for our analysis.
 
   
