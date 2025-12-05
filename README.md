@@ -37,5 +37,5 @@ This repository is organized as follows:
 
 [-**Data Dictionary**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/data#data-dictionary)
 
-[Repo QR Code](https://github.com/GreenComp-ERC/ImpactOfFossilFeulPrice/edit/main/README.md)
+![Repo QR Code](https://github.com/GreenComp-ERC/ImpactOfFossilFeulPrice/edit/main/README.md)
 
