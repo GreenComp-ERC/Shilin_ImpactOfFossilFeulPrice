@@ -36,4 +36,5 @@ This repository is organized as follows:
 [-**Dataset And Preprocessing Step**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/data#dataset-and-preprocessing-step)
 
 [-**Data Dictionary**](https://github.com/GreenComp-ERC/Shilin_ImpactOfFossilFeulPrice/tree/main/data#data-dictionary)
+![Repo QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/你的用户名/你的仓库名)
 
